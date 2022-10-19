@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #646464;
+}
+
+.text {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 280px;
+}
+
+.symbol {
+  color: #f77c33;
+}
+
+.subHeading {
+  font-size: 15px;
+  margin-top: -14px;
+}
+.conatiner {
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.subContainer {
+  border: 15px solid;
+  width: 200px;
+  height: 200px;
+  border-color: #f59962 #aba8a8 #59aab5 #ace3ac;
+}
+
+.intersection {
+  width: 15px;
+  position: absolute;
+  height: 15px;
+}
+
+#first {
+  background-color: #ddb27b;
+  top: 0px;
+  left: 0px;
+}
+
+#second {
+  background-color: #dc9e79;
+  top: 0px;
+  right: 0px;
+}
+
+#third {
+  background-color: #83c7b1;
+  bottom: 0px;
+  left: 0px;
+}
+
+#fourth {
+  background-color: #82a9af;
+  bottom: 0px;
+  right: 0px;
+}
